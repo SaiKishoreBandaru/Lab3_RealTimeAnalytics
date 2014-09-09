@@ -1,0 +1,56 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Create Table" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Insert Data" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Retrieve Data" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Table" />
+
+    
+    
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Run Word Count" />
+    
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Word Count output" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="218dp" />
+
+</LinearLayout>
